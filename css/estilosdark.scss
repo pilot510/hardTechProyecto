@@ -152,7 +152,7 @@ body {
         }
 
         #formularioContacto {
-            color: rgb(31, 5, 182);
+            color: rgb(125, 112, 192);
             margin-top: 40px;
         }
 
@@ -254,7 +254,7 @@ body {
 
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px)  {
     #menu {
         font-size: 0.9em;
     }
@@ -268,7 +268,6 @@ body {
         height: 315px;
     }
 }
-
 
 @keyframes menuAnimacion {
     from {
