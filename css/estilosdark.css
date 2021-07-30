@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+body {
+  background-image: url(../img/modoOscuroFondo.jpg);
+}
+body .body__imagen--size {
+  display: flex;
+  justify-content: center;
+  /* background-color: #eadbc4;  */
+  background-image: linear-gradient(to top, #3d3b3b, black);
+  z-index: 100;
+}
+body .body__imagen--size .vectorImg {
+  width: 30%;
+  height: auto;
+}
+body .body__navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+body .body__navbar #menu {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 5;
+}
+body .body__navbar #menu li {
+  border: 2px solid red;
+  padding: 5px;
+  width: 100px;
+  background-color: black;
+  border-radius: 1em;
+  z-index: 5;
+}
+body .body__navbar #menu li a:hover {
+  color: #0b71f7;
+  z-index: 5;
+}
+body .body__navbar #menu li a {
+  color: white;
+  text-decoration: none;
+  z-index: 5;
+}
+body .body__navbar #menu li .navbar__li--focus {
+  color: #ec66e1 !important;
+  -webkit-animation-name: menuAnimacion;
+          animation-name: menuAnimacion;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+  z-index: 5;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body main .main__titulo--color {
+  color: #0084ff;
+  margin: 25px 10px 30px 10px;
+}
+body main section .section__h2--color {
+  color: #4f8494;
+  margin: 25px 10px 30px 10px;
+}
+body main section .section__h4--color {
+  color: #676c86;
+  margin: 2rem 0 2rem 0;
+}
+body main section .section__comprar--border {
+  border-top: solid grey;
+  border-bottom: solid gray;
+}
+body main section .section__noticias--margin img {
+  margin: 50px 0 30px 0;
+}
+body main section article .section__boton--margin {
+  margin: 10px 0 20px 0;
+}
+body main section article h4 h5 h3 {
+  margin: 10px 0 10px 0;
+}
+body main section article h3 {
+  color: #be7979;
+}
+body main section article p {
+  margin: 25px 20% 30px 20%;
+  color: #b1c6ca;
+}
+body main section #marcas {
+  color: #515197;
+  margin: 20px;
+}
+body main #carouselExampleIndicators {
+  width: 57%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 0;
+}
+body main #gridMarcas {
+  display: grid;
+  margin: 20px 0 50px 1rem;
+  gap: 1rem;
+  grid-auto-rows: 15.625rem;
+  grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr));
+  grid-auto-flow: dense;
+}
+body main .section__h3--color {
+  color: #9b5353;
+  margin: 2rem 0 2rem 0;
+}
+body main #formularioContacto {
+  color: #1f05b6;
+  margin-top: 40px;
+}
+body main .main__formulario--margins {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+body main .nosotros__img--margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .modoOscuro {
+  position: absolute;
+  z-index: 10;
+  margin: 3px 0 0 3px;
+}
+body .modoOscuro .letra {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+body footer {
+  background-image: linear-gradient(to top, #3c3c3f, #44428a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #242222;
+  width: 100%;
+  bottom: 0;
+}
+body footer ol {
+  display: flex;
+}
+body footer .footer__redes--color {
+  color: #b45e5e;
+}
+
+@media only screen and (min-width: 0px) {
+  #menu {
+    font-size: 0.4em;
+  }
+
+  article img {
+    width: 80%;
+  }
+
+  .videoDiv iframe {
+    width: 280px;
+    height: 157.5px;
+  }
+}
+@media only screen and (min-width: 360px) {
+  #menu {
+    font-size: 0.5em;
+  }
+
+  article img {
+    width: 70%;
+  }
+
+  .videoDiv iframe {
+    width: 280px;
+    height: 157.5px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #menu {
+    font-size: 0.7em;
+  }
+
+  article img {
+    width: 60%;
+  }
+
+  .videoDiv iframe {
+    width: 420px;
+    height: 236.25px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #menu {
+    font-size: 0.9em;
+  }
+
+  article img {
+    width: 50%;
+  }
+
+  .videoDiv iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+@-webkit-keyframes menuAnimacion {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes menuAnimacion {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=estilosdark.css.map */
