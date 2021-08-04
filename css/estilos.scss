@@ -91,30 +91,40 @@ body {
                 color: rgb(25, 22, 218);
                 margin: $marginButtons;
             }
+
             .section__h4--color {
                 color: rgb(103, 108, 134);
                 margin: 2rem 0 2rem 0;
             }
+
             .section__comprar--border {
                 border-top: solid grey;
                 border-bottom: solid gray;
             }
+
             .section__noticias--margin img {
                 margin: 50px 0 30px 0;
             }
+
             article {
                 .section__boton--margin {
                     margin: 10px 0 20px 0
                 }
+
                 h4 h5 h3 {
                     margin: 10px 0 10px 0
                 }
-                h3 {color: rgb(102, 101, 101);}
+
+                h3 {
+                    color: rgb(102, 101, 101);
+                }
+
                 p {
                     margin: 25px 20% 30px 20%;
 
                 }
             }
+
             #marcas {
                 color: rgb(81, 81, 151);
                 margin: 20px;
@@ -153,18 +163,21 @@ body {
             margin-top: 100px;
             margin-bottom: 200px;
         }
+
         .nosotros__img--margin {
             margin-top: 20px;
             margin-bottom: 20px;
         }
     }
-    .modoOscuro{
+
+    .modoOscuro {
         position: absolute;
         z-index: 10;
         margin: 3px 0 0 3px;
+
         .letra {
             font-size: 15px;
-            font-family:'Ubuntu', sans-serif ;
+            font-family: 'Ubuntu', sans-serif;
         }
     }
 
