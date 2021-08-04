@@ -44,12 +44,11 @@ body {
             text-transform: uppercase;
             text-align: center;
             z-index: 5;
-            $ancholi: 200px;
 
             li {
                 border: 2px solid red;
                 padding: 5px;
-                width: $ancholi/2;
+                width: 100px;
                 background-color: black;
                 border-radius: 1em;
                 z-index: 5;
