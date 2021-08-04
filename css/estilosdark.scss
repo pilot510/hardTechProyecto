@@ -32,6 +32,7 @@ body {
     }
 
     .body__navbar {
+        font-size: 16px;
         position: sticky;
         top: 0px;
         z-index: 5;
@@ -219,6 +220,7 @@ body {
 
 
 
+
 @media only screen and (min-width: 360px) {
     #menu {
         font-size: 0.5em;
@@ -233,6 +235,7 @@ body {
         height: 157.5px;
     }
 }
+
 
 
 
@@ -253,9 +256,10 @@ body {
 
 
 
-@media only screen and (min-width: 1200px)  {
+
+@media only screen and (min-width: 1200px) {
     #menu {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     article img {
@@ -267,6 +271,9 @@ body {
         height: 315px;
     }
 }
+
+
+
 
 @keyframes menuAnimacion {
     from {
