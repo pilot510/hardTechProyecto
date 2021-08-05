@@ -1,7 +1,7 @@
 {
   "name": "hardtechpproyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina de asesoramiento, venta, reparacion y armado de computadoras y software gamer.",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
