@@ -1,6 +1,4 @@
 User-Agent: *
-Disallow: 
-Disallow: /contacto.html
-Disallow: /contactodark.html
+Allow: /
 
 Sitemap: https://hardtech.netlify.app/sitemap.xml
