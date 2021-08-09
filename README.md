@@ -10,6 +10,7 @@ Links del proyecto
 
 https://santiago510.github.io/hardTechProyecto/
 
-https://hardtechhardware.000webhostapp.com/
-
 https://hardtech.netlify.app/
+
+https://hardtechhardware.000webhostapp.com/ (posiblemente desactualizada)
+
