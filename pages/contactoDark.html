@@ -50,24 +50,24 @@
     <main>
         <div class="container main__formulario--margins">
             <h2 id="formularioContacto">Formulario de Contacto</h2>
-            <form action="#" method="GET" enctype="application/x-www-form-urlencoded">
+            <br>
+            <form action="../enviar.php" method="POST" enctype="application/x-www-form-urlencoded">
                 <div class="form-group">
-                    <label class="form__color--name" for="email">Nombre:</label>
-                    <input type="text" class="form-control" id="email" placeholder="Ingrese Nombre" name="email"
+                    <input type="text" class="form-control" id="email" placeholder="Nombre" name="nombre"
                         required>
                 </div>
+                <br>
                 <div class="form-group">
-                    <label class="form__color--name" for="email">Apellido:</label>
-                    <input type="text" class="form-control" id="email" placeholder="Ingrese Apellido" name="email">
+                    <input type="text" class="form-control" id="email" placeholder="Apellido" name="apellido">
                 </div>
+                <br>
                 <div class="form-group">
-                    <label class="form__color--name" for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email"
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="correo"
                         required>
                 </div>
+                <br>
                 <div class="form-group">
-                    <br>
-                    <textarea class="form-control" id="email" name="#" id="#" cols="100" rows="10"
+                    <textarea class="form-control" id="email" name="comentarios" id="#" cols="100" rows="10"
                         placeholder="Escribe tu comentario"></textarea>
                 </div>
                 <br>
