@@ -8,6 +8,8 @@ https://drive.google.com/drive/folders/1mrhqHNJxdhUcwQKAdwJQCJs1bfYV5dMR?usp=sha
 
 Links del proyecto
 
+https://drive.google.com/drive/folders/1xidxLoWIFwwJ-MJCAoICxQkY-mbrRc1T?usp=sharing
+
 https://santiago510.github.io/hardTechProyecto/
 
 https://hardtech.netlify.app/
