@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/santiago510/hardTechProyecto/issues"
   },
-  "homepage": "https://github.com/santiago510/hardTechProyecto#readme"
+  "homepage": "https://github.com/santiago510/hardTechProyecto#readme",
+  "dependencies": {}
 }
