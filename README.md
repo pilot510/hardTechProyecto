@@ -1,4 +1,4 @@
-# hardTechProyecto
+# Hard-Tech Proyecto
 proyecto curso dev web
 
 Pagina de asesoramiento, venta, reparacion y armado de computadoras y software gamer.
