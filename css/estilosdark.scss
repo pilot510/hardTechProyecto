@@ -195,8 +195,14 @@ body {
         width: 100%;
         bottom: 0;
 
-        ol {
+        .redes {
             display: flex;
+            flex-direction: row;
+
+            .redes__img--margin{
+                margin-right: 10px;
+                margin-left: 10px;
+            }
         }
 
         .footer__redes--color {
@@ -225,9 +231,6 @@ body {
     }
 }
 
-
-
-
 @media only screen and (min-width: 360px) {
     #menu {
         font-size: 0.5em;
@@ -242,9 +245,6 @@ body {
         height: 157.5px;
     }
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
     #menu {
@@ -261,9 +261,6 @@ body {
     }
 }
 
-
-
-
 @media only screen and (min-width: 1200px) {
     #menu {
         font-size: 0.8em;
@@ -278,9 +275,6 @@ body {
         height: 315px;
     }
 }
-
-
-
 
 @keyframes menuAnimacion {
     from {

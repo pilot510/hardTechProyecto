@@ -151,8 +151,13 @@ body footer {
   width: 100%;
   bottom: 0;
 }
-body footer ol {
+body footer .redes {
   display: flex;
+  flex-direction: row;
+}
+body footer .redes .redes__img--margin {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 body footer .footer__redes--color {
   color: #801515;
