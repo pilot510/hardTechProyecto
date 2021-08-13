@@ -103,12 +103,6 @@ body main section #marcas {
   color: #515197;
   margin: 20px;
 }
-body main #carouselExampleIndicators {
-  width: 57%;
-  height: auto;
-  margin: 0 auto;
-  z-index: 0;
-}
 body main #gridMarcas {
   display: grid;
   margin: 20px 0 50px 1rem;
@@ -180,6 +174,13 @@ body footer .footer__redes--color {
     width: 280px;
     height: 157.5px;
   }
+
+  #carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
+  }
 }
 @media only screen and (min-width: 360px) {
   #menu {
@@ -193,6 +194,13 @@ body footer .footer__redes--color {
   .videoDiv iframe {
     width: 280px;
     height: 157.5px;
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -208,6 +216,13 @@ body footer .footer__redes--color {
     width: 420px;
     height: 236.25px;
   }
+
+  #carouselExampleIndicators {
+    width: 57%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
+  }
 }
 @media only screen and (min-width: 1200px) {
   #menu {
@@ -221,6 +236,13 @@ body footer .footer__redes--color {
   .videoDiv iframe {
     width: 560px;
     height: 315px;
+  }
+
+  #carouselExampleIndicators {
+    width: 57%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 0;
   }
 }
 @-webkit-keyframes menuAnimacion {

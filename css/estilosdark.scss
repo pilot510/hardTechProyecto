@@ -131,14 +131,6 @@ body {
             }
         }
 
-        #carouselExampleIndicators {
-            width: 57%;
-            height: auto;
-            margin: 0 auto;
-            z-index: 0;
-
-        }
-
 
         #gridMarcas {
             display: grid;
@@ -229,7 +221,18 @@ body {
             height: 157.5px;
         }
     }
+    
+    #carouselExampleIndicators {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 0;
+
+    }
 }
+
+
+
 
 @media only screen and (min-width: 360px) {
     #menu {
@@ -244,7 +247,18 @@ body {
         width: 280px;
         height: 157.5px;
     }
+
+    #carouselExampleIndicators {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 0;
+
+    }
 }
+
+
+
 
 @media only screen and (min-width: 768px) {
     #menu {
@@ -259,7 +273,17 @@ body {
         width: 420px;
         height: 236.25px;
     }
+    #carouselExampleIndicators {
+        width: 57%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 0;
+
+    }
 }
+
+
+
 
 @media only screen and (min-width: 1200px) {
     #menu {
@@ -273,6 +297,13 @@ body {
     .videoDiv iframe {
         width: 560px;
         height: 315px;
+    }
+    #carouselExampleIndicators {
+        width: 57%;
+        height: auto;
+        margin: 0 auto;
+        z-index: 0;
+
     }
 }
 
